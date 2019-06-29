@@ -17,7 +17,7 @@ import { PdfViewerComponent } from './pdf-viewer/pdf-viewer.component';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  pdfSrc: string | PDFSource | ArrayBuffer = './assets/pdf-test.pdf';
+  pdfSrc: string | PDFSource | ArrayBuffer = './assets/testing-converted.pdf';
 
   // or pass options as object
   // pdfSrc: any = {
